@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GediFoods</title>
+        <style>
+            .str h1{
+                    font-size: 40px; 
+                    color:whitesmoke;
+                    text-shadow: 0 0 3px #FF0000, 0 0 5px #010128;
+                    font-family:Georgia, 'Times New Roman', Times, serif;         
+            }
+           
+            .str{
+                padding: 0.1% 0;
+                background-color: rgb(0, 89, 255);
+                text-align: center;
+                text-decoration: aliceblue;
+            }
+            .navbar{
+                display:flex;
+                font-size: 20px;
+                padding: 10px;
+                margin: 0px;
+                justify-content: flex-end;
+                margin-top: -70px;
+                
+            }
+            .navbar a{
+                color:white;
+                text-decoration: none;
+                margin-left:20px;
+                margin-bottom:20px;
+             }
+
+             .two{
+                background-color: rgb(215, 221, 225);
+                font-size: 30px;
+                color: blue;
+                       
+             }
+
+             .two img{
+                display:flexbox;
+                margin-left: 60px;
+                padding: 10px 0;
+             }
+
+             .container{
+                background-color: white;
+             }
+
+             .container button{
+                font-size: 50px;
+                cursor:pointer;
+                margin-top: 30px;
+                margin-bottom: 20px;
+                border-radius:10px;
+                background-color:indigo;
+                box-shadow: 0 0 10px palevioletred,0 0 10px rgb(255, 0, 162);
+                font-style: italic;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color:white
+                
+             }
+             
+             .serve{
+                background-color:white;
+             }
+
+             .serve h1{
+                font-size: 40px;
+                color: rgb(226, 43, 43);
+                text-shadow: 0 0 3px indigo;
+                /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+                /* margin-top: 10px;  // order now and items offerd k beech ka gap*/
+        
+             }
+             
+             .serve h2{
+                font-family:Arial, Helvetica, sans-serif;
+                color: blue;
+                font-size:30px;
+                text-align: center;
+             }
+             
+             .partners{
+                margin-top: 30px;
+                margin-left: 30px;
+
+             }
+
+             .partners img{
+               
+                border: 2px solid;
+                border-color:black;
+                box-shadow:3px 2px grey;
+                border-radius:20px;
+             }
+
+             .card{
+                border-style:groove; 
+                border-width: 4px;
+                border-color: black;
+                box-shadow: 3px 2px grey;
+             }
+             
+             .card h2{
+                text-align: center;
+             }
+             .card p{
+                text-align: center;
+             }
+             .card button{
+                cursor:pointer;
+                margin-left: 34%;
+                background-color: rgb(95, 14, 14);
+                color: white;
+                padding:5px 10px;
+                margin-bottom:2px;
+             }
+            
+        </style>
+        <script src="index.js"></script>
+    </head>
+    <body style="background-color:white;">
+        <div class="str">
+            <h1>GediFoods</h1>
+
+            <div class="navbar">
+                <a href="#">Home</a>
+                <a href="#">Menu</a>
+                <a href="#">Offer</a>
+                <a href="#">About Us</a>
+            </div>
+
+            <div class="two" style="display:flex; flex-direction:row">
+                <h2>Crisp , Crunch , Relax</h2>
+                <!-- <button width="100px" height="100px">Click Me</button> -->
+                <img  src="https://i.pinimg.com/originals/8c/30/d1/8c30d1f9821d51519ed386c0db2ea6a2.jpg" width="200px" height="150px" >
+                <img  src="https://thumbs.dreamstime.com/b/background-basket-brown-cholesterol-closeup-crispy-crunchy-dark-delicious-eat-fall-fastfood-fat-fatty-food-french-fresh-fry-182199155.jpg" width="200px" height="150px">
+                <img  src="https://images8.alphacoders.com/101/1016892.jpg" width="200px" height="150px" >
+            </div>
+
+            <div class="container">
+                <button>Order Now</button>
+            </div>
+
+            <div class="serve">
+                <h1>Items Offered</h1>
+
+                <div style="display: flex;  flex-direction:row; justify-content: space-around; cursor: pointer;">
+
+                    <div >
+                        <h2>Burgers</h2>
+                        <img src="https://images8.alphacoders.com/101/1016892.jpg" width="200px" height="150px" style="border-radius:20px;">
+                    </div>
+
+                    <div>
+                        <h2>Momos</h2>
+                        <img src="https://i.pinimg.com/originals/8c/30/d1/8c30d1f9821d51519ed386c0db2ea6a2.jpg" width="200px" height="150px"style="border-radius:20px;">
+                    </div>
+
+                    <div>
+                        <h2>French Fries</h2>
+                        <img src="https://thumbs.dreamstime.com/b/background-basket-brown-cholesterol-closeup-crispy-crunchy-dark-delicious-eat-fall-fastfood-fat-fatty-food-french-fresh-fry-182199155.jpg" width="200px" height="150px" style="border-radius:20px;">
+                    </div>
+
+                    <div>
+                        <h2>Sandwich</h2>
+                        <img src="https://images8.alphacoders.com/101/1016892.jpg" width="200px" height="150px" style="border-radius:20px;">
+                    </div>
+
+                    <div>
+                        <h2>Maggie</h2>
+                        <img src="https://images8.alphacoders.com/101/1016892.jpg" width="200px" height="150px" style="border-radius:20px;">
+                    </div>
+
+                </div>
+                <div style="display: flex; flex-direction:row; justify-content:space-around; cursor: pointer;">
+
+                     <div>
+                        <h2>Pasta</h2>
+                        <img src="https://images8.alphacoders.com/101/1016892.jpg" width="200px" height="150px" style="border-radius:20px;">
+                    </div>
+
+                     <div>
+                        <h2>Noodles</h2>
+                        <img src="https://images8.alphacoders.com/101/1016892.jpg" width="200px" height="150px" style="border-radius:20px;">
+                    </div>
+
+                    <div>
+                        <h2>Chicken Roll</h2>
+                        <img src="https://images8.alphacoders.com/101/1016892.jpg" width="200px" height="150px" style="border-radius:20px;">
+                    </div>  
+
+                    <div>
+                        <h2>Egg Roll</h2>
+                        <img src="https://images8.alphacoders.com/101/1016892.jpg" width="200px" height="150px" style="border-radius:20px;">
+                    </div>  
+
+                    <div>
+                        <h2>Veg Roll</h2>
+                        <img src="https://images8.alphacoders.com/101/1016892.jpg" width="200px" height="150px" style="border-radius:20px;">
+                    </div>  
+
+                </div>
+
+            </div>
+
+        </div>  
+
+        <div class="partners" style="display:flex; flex-direction: row; justify-content: space-around;">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.eAFzxVxMjhjD5m-d3SgCPQHaB_&pid=Api&P=0&h=180" width="700px" height="200px" style="margin-top:50px">
+            <img src="https://ng.jumia.is/cms/external/pet/GE779HA1NH9AONAFAMZ/b1ef0175fcdb9b8c433fd82d011fad6b.jpg" width="300px" height="300px" style="margin-right:60px ;">
+        </div>
+        <br>
+        <br>
+        <div class="about-section" style="text-align: center; padding: 0.1% 0; background-color: grey; margin-bottom: 10px;">
+            <h1>About Us</h1>
+            <p>The excellence of the StartUp is based on the pillars of team members</p>
+        </div>
+        <br>
+        <br>
+        <div class="row" style="display:flex; flex-direction: row; justify-content: space-around;">
+
+            <div class="card">
+                <img src="https://images8.alphacoders.com/101/1016892.jpg"  style="width:200px; height:150px;" >
+                <h2>Vishal Tanwar</h2>
+                <p class="title">Co-Founder </p>
+                <p>vishaltanwar699@gmail.com</p>
+                <button>Contact</button> 
+            </div>
+   
+            <div class="card">
+                <img src="https://images8.alphacoders.com/101/1016892.jpg"  style="width:200px; height:150px;" >
+                <h2>Rittik Singh</h2>
+                <p class="title">Co-Founder </p>
+                <p>rittiksingh699@gmail.com</p>
+                <button>Contact</button>  
+            </div>
+             
+            <div class="card">
+                <img src="https://images8.alphacoders.com/101/1016892.jpg"  style="width:200px; height:150px;" >
+                <h2>Anirudh Garg</h2>
+                <p class="title">Co-Founder </p>
+                <p>anirudhgarg699@gmail.com</p>
+                <button>Contact</button>    
+            </div>
+            
+        </div>
+
+    </body>
+</html>
